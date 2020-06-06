@@ -1,0 +1,267 @@
+$primary-color: #e0d9df
+$secondary-color: #186340
+$italic: "Arimo italic"
+$regular: "Arimo regular"
+$bold: "Arimo bold"
+
+.container
+  height: 500px
+  display: grid
+  grid-template-columns: 5% 90/6% 90/6% 90/6% 90/6% 90/6% 90/6% 5%
+  grid-template-rows: 10% 20% 20% 20% 20% 10%
+
+#backgroundImage
+  object-fit: cover
+  width: 100%
+  height: 33rem
+  z-index: -1
+  grid-column-start: 1
+  grid-column-end: 9
+  grid-row-start: 1
+  grid-row-end: 6
+
+  //position: relative
+
+.personalInfo
+  width: 100%
+  height: 10rem
+
+//change the logo at a later date
+.logo
+  float: right
+  margin-right: 200px
+  margin-top: 20px
+//change number at a later date
+
+.number
+  font-family: Arial
+  font-size: 30px
+  float: left
+  margin-top: 50px
+  margin-left: 200px
+  color: black
+
+  //TODO: make a fade in animation for the text and i background highlighter
+  //like in here https://thirtyeightvisuals.com/blog/low-highlight-heading-links-squarespace
+.quotes
+  margin: 0
+  word-wrap: break-word
+  font-family: $italic
+  font-size: 2.2vw
+  font-weight: 700
+  color: 	$primary-color
+  text-shadow: 0 0 3px black
+  letter-spacing: 0.2rem
+
+#quote1
+  grid-column-start: 1
+  grid-column-end: 2
+  grid-row-start: 4
+  grid-row-end: 5
+
+//#quote2
+//  grid-column-start: 1
+//  grid-column-end: 9
+//  grid-row-start: 1
+//  grid-row-end: 6
+//
+//#quote3
+//  grid-column-start: 1
+//  grid-column-end: 9
+//  grid-row-start: 1
+//  grid-row-end: 6
+
+#quote4
+  grid-column-start: 7
+  grid-column-end: 8
+  grid-row-start: 2
+  grid-row-end: 5
+
+
+.section
+  margin-top: 3%
+  height: 40rem
+  width: 100%
+  text-align: center
+  display: grid
+  grid-template-columns: 20% 20% 25% 20% 20%
+  grid-template-rows: 13% 12% 12% 15% 12% 12% 12% 8%
+  background-color: $primary-color
+
+h1
+  grid-column-start: 3
+  grid-column-end: 3
+  grid-row-start: 1
+  grid-row-end: 1
+  font-family: $regular
+  font-size: 3vw
+  color: $secondary-color
+
+
+.emphasisFont
+  font-family: $italic
+  font-size: 1.2rem
+  font-weight: 700
+
+
+.regularFont
+  font-family: $regular
+  color: $secondary-color
+  font-size: 1.2rem
+  font-weight: 500
+  text-shadow: 0 0 2px black
+
+.line1
+  grid-column-start: 2
+  grid-column-end: 5
+  grid-row-start: 2
+  grid-row-end: 2
+
+.line2
+  margin: 0
+  grid-column-start: 2
+  grid-column-end: 5
+  grid-row-start: 3
+  grid-row-end: 3
+
+.line3
+  margin: 1.5%
+  grid-column-start: 2
+  grid-column-end: 5
+  grid-row-start: 4
+  grid-row-end: 4
+
+.line4
+  margin: 1.5%
+  grid-column-start: 2
+  grid-column-end: 5
+  grid-row-start: 5
+  grid-row-end: 5
+
+.hr1
+  border-top: solid 2px black
+  grid-column-start: 2
+  grid-column-end: 5
+  grid-row-start: 4
+  grid-row-end: 4
+
+.hr2
+  border-top: solid 2px black
+  grid-column-start: 2
+  grid-column-end: 5
+  grid-row-start: 5
+  grid-row-end: 5
+
+.hr3
+  border-top: solid 2px black
+  grid-column-start: 2
+  grid-column-end: 5
+  grid-row-start: 6
+  grid-row-end: 6
+
+.contactButton
+  //aligns the button in the middle, fix this later tho
+  margin-top: 10%
+  margin-left: 25%
+  height: 3rem
+  width: 50%
+  font-family: $bold
+  font-size: 22px
+  color: white
+  background-color: $secondary-color
+  grid-column-start: 3
+  grid-column-end: 3
+  grid-row-start: 6
+  grid-row-end: 6
+
+.iconsContainer
+  margin: 0 auto
+  height: 30rem
+  width: 100%
+  border-top: solid 1px black
+  border-bottom: solid 1px black
+  display: grid
+  grid-template-columns: 21.5% 12% 3% 12% 3% 12% 3% 12% 21.5%
+  grid-template-rows: 20% 50% 30%
+
+
+#leafTextureImage
+  grid-column-start: 1
+  grid-column-end: 10
+  grid-row-start: 1
+  grid-row-end: 3
+  height: 30rem
+  width: 100%
+  background-image: url("../../assets/leafTexture2.png")
+  object-fit: cover
+  filter: blur(3px)
+  z-index: -1
+  display: grid
+
+.imgConfig
+  width: auto
+  height: 100%
+  margin-left: -50px
+
+.circleSize
+  height: 12vw
+  width: 12vw
+  overflow: hidden
+  border-radius: 50%
+  border: solid 3px white
+
+.circleWrapper1
+  grid-column-start: 2
+  grid-column-end: 3
+  grid-row-start: 2
+  grid-row-end: 2
+
+.circleWrapper2
+  grid-column-start: 4
+  grid-column-end: 5
+  grid-row-start: 2
+  grid-row-end: 2
+
+.circleWrapper3
+  grid-column-start: 6
+  grid-column-end: 7
+  grid-row-start: 2
+  grid-row-end: 2
+
+.circleWrapper4
+  grid-column-start: 8
+  grid-column-end: 9
+  grid-row-start: 2
+  grid-row-end: 2
+
+.textStyle
+  font-family: $regular
+  font-size: 40px
+  color: whitesmoke
+  text-shadow: 0 0 3px black
+  text-align: center
+  margin: 0 auto
+
+.icon1Text
+  grid-column-start: 2
+  grid-column-end: 3
+  grid-row-start: 3
+  grid-row-end: 3
+
+.icon2Text
+  grid-column-start: 4
+  grid-column-end: 5
+  grid-row-start: 3
+  grid-row-end: 3
+
+.icon3Text
+  grid-column-start: 6
+  grid-column-end: 7
+  grid-row-start: 3
+  grid-row-end: 3
+
+.icon4Text
+  grid-column-start: 8
+  grid-column-end: 9
+  grid-row-start: 3
+  grid-row-end: 3

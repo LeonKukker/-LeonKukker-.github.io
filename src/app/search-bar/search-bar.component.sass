@@ -1,0 +1,74 @@
+$primary-color: #134024
+$secondary-color: #186340
+$text-color : white
+$con-height: 6rem
+
+.container
+  display: grid
+  grid-template-columns: 22.5% auto auto auto auto auto auto 22.5%
+  grid-template-rows: auto
+  object-fit: cover
+  width: 100%
+  height: $con-height
+  color: red
+  font-size: 20px
+  //background-image: url('../../assets/searchbarBackground.jpg')
+  background-color: #228e60
+  position: sticky
+  top: 0
+
+.btn
+  background-color: transparent
+  width: 100%
+  height: 100%
+  cursor: pointer
+  outline: none
+  //margin-top: 1rem
+  padding: 0
+  border: 1px solid transparent
+  color: whitesmoke
+  font-size: 1.3vw
+  text-shadow: 0 0 2px black
+  transition: all 250ms ease-in-out
+
+.btn:hover
+  color: $secondary-color
+  background-color: #e0e0d1
+
+//.btn:after
+//  content: ''
+//  display: block
+//  background-color: transparent
+//  height: 100%
+//  width: 100%
+//
+//
+//.btn:hover::after
+//  height: 100%
+//  width: 100%
+//  background-color: whitesmoke
+
+.num1
+  grid-column-start: 2
+  grid-column-end: 3
+
+.num2
+  grid-column-start: 3
+  grid-column-end: 4
+
+.num3
+  grid-column-start: 4
+  grid-column-end: 5
+
+.num4
+  grid-column-start: 5
+  grid-column-end: 6
+
+.num5
+  grid-column-start: 6
+  grid-column-end: 7
+
+.num6
+  grid-column-start: 7
+  grid-column-end: 8
+

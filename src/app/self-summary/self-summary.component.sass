@@ -1,0 +1,39 @@
+$primary-color: #e0d9df
+$secondary-color: #186340
+$italic: "Arimo italic"
+$regular: "Arimo regular"
+$bold: "Arimo bold"
+
+.portrait
+  height: 35rem
+  width: 26rem
+
+#container
+  height: 55rem
+  width: 100%
+  display: grid
+  grid-template-columns: 20% 10% 10% 10% 10% 10% 10% 20%
+  grid-template-rows: 12.5% 15% 20% 20% 20%
+
+.pictureWrapper
+  grid-column-start: 2
+  grid-column-end: 5
+  grid-row-start: 2
+  grid-row-end: 4
+
+.summary
+  grid-column-start: 5
+  grid-column-end: 8
+  grid-row-start: 2
+  grid-row-end: 4
+
+.description
+  font-family: $bold
+  font-size: 2.5rem
+  color: $secondary-color
+  margin-top: 5%
+
+.summaryParagraph
+  font-family: $regular
+  color: $secondary-color
+  font-size: 1.6rem

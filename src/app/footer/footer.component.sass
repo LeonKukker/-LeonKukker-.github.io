@@ -1,0 +1,114 @@
+$italic: "Arimo italic"
+$regular: "Arimo regular"
+$bold: "Arimo bold"
+$primary-color: #e0d9df
+$secondary-color: #186340
+
+#contactBar
+  height: 6rem
+  width: 100%
+  background-image: url("../../assets/searchbarBackground.jpg")
+  display: grid
+  grid-template-columns: 20% 25% 10% 25% 20%
+  grid-template-rows: 20% 60% 20%
+
+.contactBar__text
+  font-family: $regular
+  font-size: 2rem
+  margin-top: 1%
+  color: whitesmoke
+  text-shadow: 0 0 3px black
+
+.contactBar__text__wrapper
+  grid-column-start: 4
+  grid-column-end: 4
+  grid-row-start: 2
+  grid-row-end: 2
+
+.contactBar__button
+  width: 50%
+  height: 3rem
+  font-size: 1.5rem
+  font-family: $regular
+  color: white
+  background-color: $secondary-color
+  grid-column-start: 2
+  grid-column-end: 2
+  grid-row-start: 2
+  grid-row-end: 2
+
+#mapPreface
+  text-align: center
+
+h1
+  font-family: $regular
+  font-size: 2.5vw
+  color: $secondary-color
+
+.map
+  height: 25rem
+  width: 100%
+  border-top: solid 1px black
+  border-bottom: solid 1px black
+  background-image: url("../../assets/brenerMap.png")
+
+#officeDetails
+  height: 22rem
+  width: 100%
+  text-align: center
+  display: grid
+  grid-template-columns: 15% 20% 25% 20% 15%
+  grid-template-rows: 10% 15% 0 20% 0 20% 10%
+
+.about
+  grid-column-start: 2
+  grid-column-end: 2
+  grid-row-start: 4
+  grid-row-end: 6
+
+.officeHours
+  grid-column-start: 3
+  grid-column-end: 3
+  grid-row-start: 4
+  grid-row-end: 6
+
+.contactInfo
+  grid-column-start: 4
+  grid-column-end: 4
+  grid-row-start: 4
+  grid-row-end: 6
+
+h2
+  font-family: $regular
+  font-size: 2rem
+  color: $secondary-color
+  margin: 0 auto
+
+.infoText
+  font-family: $regular
+  font-size: 1.8rem
+  color: black
+
+.about__title
+  grid-column-start: 2
+  grid-column-end: 2
+  grid-row-start: 2
+  grid-row-end: 2
+
+.officeHours__title
+  grid-column-start: 3
+  grid-column-end: 3
+  grid-row-start: 2
+  grid-row-end: 2
+
+.contactInfo__title
+  grid-column-start: 4
+  grid-column-end: 4
+  grid-row-start: 2
+  grid-row-end: 2
+
+#footerExtras
+  height: 5rem
+  width: 100%
+  filter: blur(3px)
+  background-image: url("../../assets/searchbarBackground.jpg")
