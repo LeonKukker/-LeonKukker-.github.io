@@ -1,6 +1,15 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
+/e2e
+/src
+.efitorconfig
+README.md
+angular.json
+package-lock.json
+package.json
+tsconfig.json
+tslint.json
 
 # dependencies
 /node_modules
